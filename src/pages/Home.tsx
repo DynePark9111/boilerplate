@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import useLocalStorage from "../hooks/useLocalStorage";
 import useUpdateLogger from "../hooks/useUpdateLogger";
 
@@ -7,12 +8,9 @@ export default function Home() {
 
   return (
     <div>
-      <h1>useLocalStroage</h1>
-      <input
-        type="text"
-        value={input}
-        onChange={(e) => setInput(e.target.value)}
-      />
+      <h1>Custom Hooks</h1>
+      <Link to={"/LocalStorage"}>LocalStorage</Link>
+      <Link to={"/Toggle"}>Toggle</Link>
     </div>
   );
 }
