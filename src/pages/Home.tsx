@@ -11,6 +11,8 @@ export default function Home() {
       <h1>Custom Hooks</h1>
       <Link to={"/LocalStorage"}>LocalStorage</Link>
       <Link to={"/Toggle"}>Toggle</Link>
+      <Link to={"/Timeout"}>Timeout</Link>
+      <Link to={"/Debounce"}>Debounce</Link>
     </div>
   );
 }
