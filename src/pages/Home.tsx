@@ -14,6 +14,7 @@ export default function Home() {
       <Link to={"/Timeout"}>Timeout</Link>
       <Link to={"/Debounce"}>Debounce</Link>
       <Link to={"/Previous"}>Previous</Link>
+      <Link to={"/Storage"}>Storage</Link>
     </div>
   );
 }
