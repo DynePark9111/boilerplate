@@ -13,6 +13,7 @@ export default function Home() {
       <Link to={"/Toggle"}>Toggle</Link>
       <Link to={"/Timeout"}>Timeout</Link>
       <Link to={"/Debounce"}>Debounce</Link>
+      <Link to={"/Previous"}>Previous</Link>
     </div>
   );
 }
