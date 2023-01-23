@@ -15,6 +15,8 @@ export default function Home() {
       <Link to={"/Debounce"}>Debounce</Link>
       <Link to={"/Previous"}>Previous</Link>
       <Link to={"/Storage"}>Storage</Link>
+      <h1>Redux</h1>
+      <Link to={"/Redux"}>Redux</Link>
     </div>
   );
 }

@@ -3,6 +3,7 @@ import Debounce from "./pages/Debounce";
 import Home from "./pages/Home";
 import LocalStorage from "./pages/LocalStorage";
 import Previous from "./pages/Previous";
+import Redux from "./pages/Redux";
 import Storage from "./pages/Storage";
 import Timeout from "./pages/Timeout";
 import Toggle from "./pages/Toggle";
@@ -18,6 +19,7 @@ export default function App() {
         <Route path="/Debounce" element={<Debounce />} />
         <Route path="/Previous" element={<Previous />} />
         <Route path="/Storage" element={<Storage />} />
+        <Route path="/Redux" element={<Redux />} />
         <Route path="*" element={<h1>notfound</h1>} />
       </Routes>
     </div>
